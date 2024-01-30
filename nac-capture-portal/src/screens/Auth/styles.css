@@ -1,0 +1,78 @@
+.main-container {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./UCA_noche.jpg);
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 30px;
+    min-height: 35vh;
+    position: relative;
+    max-width: 26vw;
+}
+
+.title-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-height: 70px;
+    margin-bottom: 30px;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container {
+    min-height: 80px;
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.button {
+    min-height: 50px;
+    width: 80%;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
